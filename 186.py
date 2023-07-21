@@ -1,0 +1,6 @@
+file = open(file_name+".text", "w")
+data = encryption_text_data.get("1.0",END)
+cipher = encrypt('XYZ', data)
+file_name+entry.delete(0,END)
+encryption_text_data.delete(1.0, END)
+btn_start = Button(login_window, text="Start" , font = 'arial 13' , bg="#CEF9F2", command=enterRoom, relief_FLAT, padx=10)
